@@ -31,4 +31,11 @@
 
 $footer_content = "Arvestustöö: Eve Link - 30.09.2014";
 
+function team_members($name = "Nimetu", $email = "Puudub", $huviala = "Puuduvad"){
+    return '<div class="team-member">
+                  <h2 class="member-name">'.$name.'</h2>
+            <div class="member-info">E-mail:<a href="mail:'.$email.'">'.$email.'</a></div>
+            <div class="member-info">Huvialad:'.$huviala.'</div></div>';
+  };
+
 ?>
