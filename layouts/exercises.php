@@ -11,7 +11,15 @@
     <main id="site-body">
       <section id="site-content">
         <h2>Tingimuslause</h2>
-        <!--  Sisesta siia kood -->
+        <?php 
+           $random = rand(100, 200);
+            if ($random < 150) {
+              echo 'Juhuslik number '.$random.' on väiksem kui 150.';}
+            elseif ($random > 150) {
+              echo 'Juhuslik number '.$random.' on suurem kui 150.';}
+            else
+              echo 'Juhuslik number '.$random.' on 150.';
+         ?>
 
         <h2>Juhuslik pilt</h2>
         <!--  Sisesta siia kood -->
