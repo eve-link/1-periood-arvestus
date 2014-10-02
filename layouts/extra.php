@@ -3,7 +3,6 @@
 <head>
   <?php include "../components/html-head.php"; ?>
 </head>
-
 <body>
   <div id="site-container">
     <?php include "../components/site-header.php"; ?>
