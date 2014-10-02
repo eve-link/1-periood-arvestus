@@ -2,7 +2,6 @@
 <html>
 <head>
   <?php include "../components/html-head.php"; ?>
-  <link rel="stylesheet" href="../stylesheets/main.css?1">
 </head>
 
 <body>
