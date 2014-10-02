@@ -22,7 +22,9 @@
          ?>
 
         <h2>Juhuslik pilt</h2>
-        <!--  Sisesta siia kood -->
+      <?php
+            echo '<img src="http://users.khk.ee/kaspar.naaber/svp/periood-1/arvestus/images/'.rand(1, 12).'.jpg">';
+          ?>
 
         <h2>Kõikide piltide väljastamine</h2>
         <!--  Sisesta siia kood -->
